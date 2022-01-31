@@ -1,0 +1,285 @@
+.mainnav{
+    background-color:white ;
+    box-shadow: #aaa 1px 1px 1px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+.mainnav .logo .pic{
+    width: 40px;
+    height: 40px;
+    padding: 0 30px;
+    
+}
+.mainnav .logo img{
+    width: 100%;
+    
+}
+.mainnav h1{
+    font-size: 16px;
+}
+
+
+.mainnav .container{
+    display: flex;
+    height: 100px;
+    width: 1200px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mainnav .logo{
+    display: flex;
+  
+    align-items: center;
+}
+.mainnav .navbar{
+    display: flex;
+    
+}
+.mainnav .navbar a{
+    text-decoration: none;
+    color: black;
+}
+.mainnav .navbar li{
+    padding: 0 20px;
+}
+
+.mainnav .login{
+    display: flex;
+    
+    
+}
+
+.mainnav .login li{
+    padding:0 10px;
+       
+}
+
+.mainnav .login a{
+    color: gray;
+    text-decoration: none;
+}
+.mainimg .container{
+    margin: auto;
+    position: relative;
+    
+    
+}
+.mainimg .container .txt{
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    font-weight: 900;
+    transform: translate(0%,-50%);
+}
+.mainimg .container .txt button{
+    background-color:#ffb000;
+    border-radius: 50px;
+    padding: 10px 20px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+
+}
+.mainimg h2{
+    font-size: 40px;
+    padding: 30px 0px;
+}
+.mainimg p {
+    font-size: 24px;
+}
+
+.maingimg{
+    margin: auto;
+    width: 100vw;
+
+}
+
+.mainimg .container img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.imgbottom .slider{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* border: solid 1px red; */
+}
+.imgbottom .container .slider li{
+    width: 25%;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.imgbottom .container{
+    width: 1200px;
+    margin: auto;
+    height: 100%;
+}
+
+.imgbottom img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: bottom;     
+    border-radius: 10px;
+
+}
+
+.dot1 {
+    border-radius: 50% ;
+    width: 8px;
+    height:8px;
+    background-color: rgb(0, 0, 0);
+}
+.dot2 {
+    border-radius: 50% ;
+    width: 8px;
+    height:8px;
+    background-color: rgb(0, 0, 0);
+
+}
+.dot3{
+    border-radius: 50% ;
+    width: 8px;
+    height:8px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.buttons{
+    /* border: 1px red solid; */
+    display: flex;
+    justify-content: center;
+    
+}
+.buttons .dot2{
+    margin:0 5px;
+}
+.pruduct{
+    margin-top: 70px;
+    background-image: url(./background4.png);
+    background-size: cover;
+    background-position: center center;
+}
+.pruduct .container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: left;
+    position: relative;
+   
+}
+.pruduct .container .pic{
+    width: 60%;
+    margin-right: auto;
+}
+.pruduct .container .pic img{
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+.pruduct .container .pruduct-txt h1{
+    font-size: 48px;
+    font-family: Arial;
+    color: gray;  
+    font-weight:bold;
+   position: absolute;
+   right: 10%;
+   top:35%;
+   background-color: rgb(255, 14, 14);
+   color: white;
+   padding:20px;
+   border-radius: 10px;
+    
+}
+.pruduct .container .pruduct-txt h2{
+    font-size: 18px;
+   margin-top: 30px;
+   font-weight:bold;
+   position: absolute;
+   right:140px;
+   top:50% ;
+   background-color: rgb(255, 4, 4);
+   color: white;
+   padding:20px;
+   border-radius: 10px;
+}
+.pruduct .container img{
+    width: 100%;
+    height: 50%;
+}
+.product-list .container{
+   width: 1200px;
+   margin: auto;
+   padding: 60px 0px;
+}
+.product-list li {
+    width: 33.333333%; 
+    box-sizing: border-box;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-list{
+    background-size: cover;
+    background-image: url(./background6.png);
+}
+.product-list img{
+    width: 30%;
+}
+.product-list .container ul{
+   display: flex;
+}
+.product-list li p{
+    padding-top: 60px;
+    font-size: 16px;
+    color: #009e96;
+    font-weight:900;
+}
+.Transfer-banner .container{
+    background-image: url(./background2.png);
+    width: 1200px;
+    position: relative;
+    margin: auto;
+    height: 300px;
+    
+}
+
+.Transfer-banner .container .pic{
+    width: 150px;
+    cursor: pointer;
+    display: flex;
+   
+}
+.Transfer-banner .container img{
+    width: 100%;
+}
+.Transfer-banner .container .txt{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+    font-size: 18px;
+    font-weight: 800;
+}
+.Prduct-Detail-Page .container{
+    width: 1200px;
+    
+}
+     
+}
+.Prduct-Detail-Page .container img{
+    width: 100%;
+    align-items: center;
+}
+.Prduct-Detail-Page{
+    
+}
